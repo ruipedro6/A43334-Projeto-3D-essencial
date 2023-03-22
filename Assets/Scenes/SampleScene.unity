@@ -430,6 +430,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6367788576482106688, guid: c95e0d1b1c6baf549bf432444187923b, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: b302c6c652037e846baa1f31e17b0017, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c95e0d1b1c6baf549bf432444187923b, type: 3}
 --- !u!1001 &315271312
@@ -439,6 +443,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 370763290911950984, guid: c95e0d1b1c6baf549bf432444187923b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72ea04ccffaea9a4189076848957e253, type: 2}
     - target: {fileID: 1936646913409588798, guid: c95e0d1b1c6baf549bf432444187923b, type: 3}
       propertyPath: m_Name
       value: BouncyBall (10)
@@ -613,7 +621,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 633f4e7f46d5e0349bbc378a6d71cba1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1665,6 +1673,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6367788576482106688, guid: c95e0d1b1c6baf549bf432444187923b, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: b302c6c652037e846baa1f31e17b0017, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c95e0d1b1c6baf549bf432444187923b, type: 3}
 --- !u!1 &1809395364
